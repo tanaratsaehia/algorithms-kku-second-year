@@ -56,6 +56,7 @@ class QLinkList():
             return True
         else:
             print("ERR : index should be >= 0")
+            return False
     
     def update(self, data:any, where:int) -> bool:
         """where mean what index of data you wanna update it"""
@@ -73,6 +74,7 @@ class QLinkList():
             return True
         else:
             print("ERR : index should be >= 0")
+            return False
     
     def delete(self, where:int) -> bool:
         """where mean what index of data you wanna delete it"""
